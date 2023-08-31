@@ -19,14 +19,17 @@ import HeaderAfterLogin from "./Component/HeaderAfterLogin";
 import BodyTermandCondtions from "./Component/BodyTermandCondtions";
 import AboutUsWithLogin from "./Component/AboutUsWithLogin";
 import HeaderWithoutLogin from "./Component/HeaderWithoutLogin";
-import HeaderHelpCenterHome from "./Component/HeaderHelpCenterHome";
 import BodyHelpCenterHome from "./Component/BodyHelpCenterHome";
+import HelpCenterFeedbackForm from "./Component/HelpCenterFeedbackForm";
+import HelpCenterComplaintSuccess from "./Component/HelpCenterComplaintSuccess";
 
 function App() {
   return (
     <main>
-      {/* <HeaderHelpCenterHome /> */}
-      {/* <BodyHelpCenterHome /> */}
+      <HeaderAfterLogin />
+      {/* <HelpCenterComplaintSuccess /> */}
+      {/* <HelpCenterFeedbackForm /> */}
+      <BodyHelpCenterHome />
       {/* <DummyHeaderForSignupForm/> */}
       {/* <SignupForm /> */}
       {/* <SignupForm1/> */}
@@ -43,7 +46,6 @@ function App() {
       {/* <LoginForm /> */}
       {/* <SetUpYourStyle/> */}
 
-      {/* <HeaderAfterLogin /> */}
       {/* <AboutUsWithLogin /> */}
       {/* <BodyTermandCondtions /> */}
       {/* <BodyTermandCondtions /> */}
