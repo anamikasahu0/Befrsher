@@ -7,16 +7,23 @@ import store from "../Images/Store.png";
 import Arrowdown from "../Images/Arrowdown.svg";
 import profilePhoto from "../Images/profilePhoto.svg";
 import Wishlist from "../Images/Wishlist.svg";
+import HamburgerIcon from "../Images/Hamburger_Icon.svg";
 
 function HeaderAfterLogin() {
   return (
     <main className="">
       <div className="flex max-w-full max-h-60  pb-2  items-center mb-[3.75rem] pt-[2.5rem]   ">
+        {/* <div className="flex ">
+          <img
+            src={HamburgerIcon}
+            className=" flex items-center mt-[0.94rem] ml-[1.25rem] "
+          />
+        </div> */}
         <div className="w-[11.25rem] h-[2.5rem] inline-flex justify-center items-center ml-[2.5rem]">
           <img src={Companylogo} alt="companylogo" />
         </div>
 
-        <div className=" relative w-[44rem] h-10 rounded-[0.625rem] bg-[#e7e7e7] flex items-center ml-[11.56rem]">
+        <div className=" sm:hidden relative w-[44rem] h-10 rounded-[0.625rem] bg-[#e7e7e7] flex items-center ml-[11.56rem]">
           <div className="flex w-[8rem] h-5 justify-center ml-[0.5rem]">
             <img
               className=" h-4 flex j"
@@ -24,7 +31,7 @@ function HeaderAfterLogin() {
               alt="locationicon"
             />
             <div
-              className="flex items-center font-normal text-[1rem]  -tracking-[0.02rem] text-[#8a8a8a] ml-1 w-[7.25rem] h-5"
+              className="flex sm2:hidden items-center font-normal text-[1rem]  -tracking-[0.02rem] text-[#8a8a8a] ml-1 w-[7.25rem] h-5"
               type="text"
               placeholder="Add Location"
             >

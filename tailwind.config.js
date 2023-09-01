@@ -4,11 +4,18 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     screens: {
+      /*
+      ? Do remember this before doing responsiveness work of any page.
+      *So the below breakpoints work opposite to what is given on the offical website, means if you apply 
+      * 2xl breackpoint it'll apply on 2xl and below all screens.
+      */
+
       "4xl": { max: "2560px" },
       // => @media (max-width: 2560px) { ... }
 
       // for this screen it's done
       "2xl": { max: "1535px" },
+
       // => @media (max-width: 1535px) { ... }
 
       xl: { max: "1279px" },
